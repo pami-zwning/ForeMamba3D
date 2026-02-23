@@ -18,7 +18,7 @@ Fore-Mamba3D is a novel backbone architecture for 3D object detection that lever
 
 ## Method Overview
 
-![Framework](./iclr2026/imgs/framework.png)
+![Framework](./imgs/framework.pdf)
 
 The backbone consists of four stages, each containing an instance selection block and a downsampling block. The instance selection block includes foreground voxel sampling, RGSW strategy, and SASFMamba encoder for effective foreground-focused 3D object detection.
 
@@ -108,7 +108,6 @@ python eval.py --cfg configs/nuscenes_train.yaml \
 |--------|----------|-----|-----|
 | Fore-Mamba3D | Mamba | **XX.XX** | **XX.XX** |
 
-*Note: Detailed results will be updated after paper camera-ready version*
 
 ## Citation
 
@@ -130,12 +129,6 @@ This work is partially supported by:
 - Zhejiang Province Leading Geese Plan (2025C02025, 2025C01056)
 - Zhejiang Province Province-Land Synergy Program (2025SDXT004-3)
 
-## Contact
-
-For questions and feedback, please contact:
-- **Zhiwei Ning**: zwning@sjtu.edu.cn
-- **Wei Liu** (Corresponding): weiliucv@sjtu.edu.cn
-- **Jie Yang** (Corresponding): jieyang@sjtu.edu.cn
 
 ## License
 
