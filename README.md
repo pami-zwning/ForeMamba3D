@@ -87,10 +87,6 @@ python -m torch.distributed.launch \
 | Method | Backbone | Car (Hard/Mod/Easy) | Pedestrian (Hard/Mod/Easy) | Cyclist (Hard/Mod/Easy) |
 |--------|----------|---------|---------|---------|
 | PointPillars | MLP | 79.1 / 75.0 / 68.3 | 52.1 / 43.5 / 41.5 | 75.8 / 59.1 / 52.9 |
-| IA-SSD | MLP | 88.3 / 80.1 / 75.0 | 46.5 / 39.0 / 35.6 | 78.4 / 61.9 / 55.7 |
-| VoxelNet | SpCNN | 77.5 / 65.1 / 57.7 | 39.5 / 33.7 / 31.5 | 61.2 / 48.4 / 44.4 |
-| DSVT | Transformer | 87.8 / 77.8 / 76.8 | 66.1 / 59.7 / 55.2 | 83.5 / 66.7 / 63.2 |
-| DGT-Det | Transformer | 89.6 / 80.6 / 78.8 | - | 82.1 / 68.9 / 61.0 |
 | LION | Mamba | 88.6 / 78.3 / 77.2 | 67.2 / 60.2 / 55.6 | 83.0 / 68.6 / 63.9 |
 | VoxelMamba | Mamba | 89.1 / 80.8 / 78.1 | 66.0 / 59.7 / 53.7 | 84.2 / 69.1 / 64.8 |
 | **Fore-Mamba3D** | **Mamba** | **90.3 / 82.2 / 79.5** | **67.8 / 62.2 / 57.0** | **86.4 / 69.5 / 66.3** |
@@ -99,10 +95,6 @@ python -m torch.distributed.launch \
 
 | Method | Backbone | mAP | NDS |
 |--------|----------|-----|-----|
-| CenterPoint | TransformerEncoder | 59.2 | 66.5 |
-| TransFusion-L | Hybrid | 65.5 | 70.1 |
-| VoxelNeXt | Transformer | 64.5 | 70.0 |
-| DSVT | Transformer | 66.4 | 71.1 |
 | HEDNet | Transformer | 66.7 | 71.4 |
 | SAFDNet | Hybrid | 66.3 | 71.0 |
 | Voxel-Mamba | Mamba | 67.5 | 71.9 |
@@ -114,9 +106,6 @@ python -m torch.distributed.launch \
 
 | Method | Backbone | Vehicle | Pedestrian | Cyclist | mAP |
 |--------|----------|---------|---------|---------|-----|
-| SECOND | SpCNN | 71.0 / 62.6 | 65.2 / 57.2 | 57.1 / 55.0 | 58.3 |
-| PV-RCNN | PointNet++ | 75.4 / 67.4 | 72.0 / 63.7 | 65.8 / 63.4 | 64.8 |
-| CenterPoint | TransformerEncoder | 71.3 / 63.2 | 72.1 / 64.3 | 68.7 / 66.1 | 64.5 |
 | Voxel-RCNN | SpCNN | 76.1 / 68.2 | 78.2 / 69.3 | 70.8 / 68.3 | 68.6 |
 | LION | Mamba | - / 67.0 | - / 75.4 | - / 71.9 | 71.4 |
 | **Fore-Mamba3D** | **Mamba** | **76.3 / 67.8** | **82.1 / 75.6** | **72.8 / 72.2** | **71.9** |
