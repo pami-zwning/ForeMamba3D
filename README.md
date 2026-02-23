@@ -146,9 +146,3 @@ This project is released under the [MIT License](LICENSE).
 
 We welcome contributions from the community. Please feel free to submit pull requests or open issues.
 
-## Related Work
-
-- [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.08956)
-- [SECOND: Sparsely Embedded Convolutional Detection](https://www.mdpi.com/1424-8220/18/10/3337)
-- [PointNet++: Deep Hierarchical Feature Learning on Point Sets](https://arxiv.org/abs/1706.02413)
-
