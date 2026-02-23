@@ -18,7 +18,7 @@ Fore-Mamba3D is a novel backbone architecture for 3D object detection that lever
 
 ## Method Overview
 
-![Framework](imgs/framework.pdf)
+![Framework](imgs/framework.png)
 
 The backbone consists of four stages, each containing an instance selection block and a downsampling block. The instance selection block includes foreground voxel sampling, RGSW strategy, and SASFMamba encoder for effective foreground-focused 3D object detection.
 
