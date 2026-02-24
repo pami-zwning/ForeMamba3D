@@ -122,11 +122,14 @@ python -m torch.distributed.launch \
 If you find this project useful in your research, please cite:
 
 ```bibtex
-@article{ning2026foremamba3d,
-  title={Fore-Mamba3D: Mamba-based Foreground-Enhanced Encoding for 3D Object Detection},
-  author={Ning, Zhiwei and Gao, Xuanang and Cao, Jiaxi and Yang, Runze and Yang, Jie and Liu, Wei and Xu, Huiying and Zhu, Xinzhong},
-  journal={arXiv preprint arXiv:2601.xxxxx},
-  year={2026}
+@misc{ning2026foremamba3dmambabasedforegroundenhancedencoding,
+   title={Fore-Mamba3D: Mamba-based Foreground-Enhanced Encoding for 3D Object Detection}, 
+   author={Zhiwei Ning and Xuanang Gao and Jiaxi Cao and Runze Yang and Huiying Xu and Xinzhong Zhu and Jie Yang and Wei Liu},
+   year={2026},
+   eprint={2602.19536},
+   archivePrefix={arXiv},
+   primaryClass={cs.CV},
+   url={https://arxiv.org/abs/2602.19536}, 
 }
 ```
 
